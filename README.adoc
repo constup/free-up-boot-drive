@@ -29,9 +29,10 @@ sense will the old instructions be kept.
 
 == Table of contents
 
-* link:JetBrains/[JetBrains]
+* link:JetBrains/jetbrains.adoc[JetBrains]
 ** link:JetBrains/config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
 ** link:JetBrains/changing-installation-directory.adoc[Changing IDE installation directory]
+** link:JetBrains/temporary-files-and-cleanup.adoc[Temporary files and cleanup]
 
 == Licenses
 

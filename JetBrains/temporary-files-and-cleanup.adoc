@@ -1,0 +1,11 @@
+= Temporary files and cleanup
+:toc:
+:toclevels: 5
+
+== Introduction
+
+These are temporary files, dumps or logs which can be generated and take up gigabytes of space.
+
+== List
+
+* `%UserProile%\java_error_in_webstorm64.hprof` - IDE error dump. In my case it was a little over 3GB.

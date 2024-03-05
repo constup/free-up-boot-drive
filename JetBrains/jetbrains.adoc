@@ -1,0 +1,19 @@
+= JetBrains IDEs
+:toc:
+:toclevels: 5
+
+== Introduction
+
+https://www.jetbrains.com/ides/[JetBrains IDEs], like IntelliJ Idea, WebStorm, PhpStorm, DataGrip, GoLand, CLion,... by
+default, use a lot of space on the boot drive. From default application installation directories to plugin directories,
+logs, configuration and indexes. This is a list of default locations and links to guides on how to migrate them to
+non-boot drive.
+
+== List of files and folders on boot drive
+
+* `%LocalAppData%\Programs\\<<IDE NAME>>` - Application binaries.
+Guide: link:changing-installation-directory.adoc[Changing IDE installation directory]
+* `%LocalAppData%\JetBrains` - configuration, logs, plugins, indexes, cache. Guide:
+link:config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
+* `%AppData\JetBrains%`
+* Guide: link:temporary-files-and-cleanup.adoc[Temporary files and cleanup]
