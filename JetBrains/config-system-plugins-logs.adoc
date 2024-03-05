@@ -4,7 +4,7 @@
 
 == Space savings
 
-* At least: ~300 MB (per JetBrains application)
+* At least: ~300 MB (per JetBrains application, if used actively)
 * Usual: ~600 MB (per JetBrains application)
 
 == What are these files
