@@ -1,8 +1,12 @@
 = Free up Boot Drive
-:toc:
-:toclevels: 5
 
 == Introduction
 
 This is a set of instructions and guides on how to free up space on your boot drive by moving applications, their
 configuration and logs to other drives. It is primarily intended for Windows users.
+
+== Table of contents
+
+* link:JetBrains/[JetBrains]
+** link:JetBrains/config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
+** link:JetBrains/changing-installation-directory.adoc[Changing IDE installation directory]
