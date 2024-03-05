@@ -21,3 +21,12 @@ solutions.
 * link:JetBrains/[JetBrains]
 ** link:JetBrains/config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
 ** link:JetBrains/changing-installation-directory.adoc[Changing IDE installation directory]
+
+== Licenses
+
+* License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+image::img/by-nc-sa.png[]
+
+Author: Nikola D. Stojiljković / constUP
