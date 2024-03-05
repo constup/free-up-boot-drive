@@ -32,7 +32,7 @@ idea.log.path=I:/JetBrains/PhpStorm/log
 
 == Important notes
 
-* forward slashes *must* be used, even on Windows. Using backslashes will produce a directory like
+* Forward slashes *must* be used, even on Windows. Using backslashes will produce a directory like
 `I:\JetBrainsPhpStormconfig`.
 * This *will not* move the IDE installation directory (binaries). To do that, follow this guide:
 link:changing-installation-directory.adoc[Changing IDE installation directory].
