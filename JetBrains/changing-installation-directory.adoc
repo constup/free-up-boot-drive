@@ -1,3 +1,32 @@
 = Changing IDE installation directory
 :toc:
 :toclevels: 5
+
+== Space savings
+
+* At least ~3GB per JetBrains application
+
+== What are these files
+
+These are binaries of a JetBrains IDE.
+
+== How to move them
+
+=== Toolbox app UI
+
+Go to the Settings of the https://www.jetbrains.com/toolbox-app/[JetBrains ToolBox app] (*not* the settings of an IDE
+inside the Toolbox App), and under "Setting > Tools > Tools Install location" set the directory where JetBrains IDEs
+will be installed - *in the future*.
+
+*This will not migrate already installed applications.*
+
+You will then *have to uninstall and reinstall* each IDE from the Toolbox App in order to apply the changes.
+
+== Important notes
+
+* Updating the application after changing its location in the Toolbox App UI *will not* move it to the new directory.
+Only fresh installation will.
+
+== Official documentation
+
+* https://www.jetbrains.com/toolbox-app/faq/#:~:text=Go%20to%20the%20Toolbox%20App,the%20Tools%20install%20location%20field.[Toolbox App FAQ]

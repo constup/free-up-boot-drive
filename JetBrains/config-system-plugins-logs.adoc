@@ -41,4 +41,4 @@ otherwise, you will have to configure your IDE and install all plugins again.
 
 == Official documentation
 
-https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage[Changing IDE default directories used for config, plugins, and caches storage]
+* https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage[Changing IDE default directories used for config, plugins, and caches storage]

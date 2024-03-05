@@ -6,6 +6,7 @@ This is a set of instructions and guides on how to free up space on your boot dr
 configuration and logs to other drives. It is primarily intended for Windows users.
 
 [NOTE]
+.*Scope of these guides:*
 ====
 Instructions listed here are meant to be simple solutions, which are either buried somewhere inside the official
 documentation of tools which are covered here, and/or are simple solutions which are tested and confirmed to work.
@@ -14,6 +15,16 @@ Although alternative solutions might exist, *it is not the intention* of these g
 same blob of information as many of the official documentations are. However, each article will have links to the
 official documentation itself and/or relevant 3rd party guides - just in case you want to dig deeper or find alternative
 solutions.
+====
+
+[NOTE]
+.*Supported versions of applications:*
+====
+Instructions listed here are relevant to versions of the applications which are the most recent at the time of writing.
+If the information gets outdated for a new version of some application, it will be updated.
+
+There is no guarantee that legacy information will be preserved. In fact, only in rare cases where it extremely makes
+sense will the old instructions be kept.
 ====
 
 == Table of contents
