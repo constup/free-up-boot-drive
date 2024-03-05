@@ -1,0 +1,3 @@
+= Changing IDE installation directory
+:toc:
+:toclevels: 5

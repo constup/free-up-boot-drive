@@ -1,0 +1,44 @@
+= Configuration, system, plugins and logs directories
+:toc:
+:toclevels: 5
+
+== Space savings
+
+* At least: ~300 MB (per JetBrains application)
+* Usual: ~600 MB (per JetBrains application)
+
+== What are these files
+
+* `config` - JetBrains configuration directory. Contains configuration for the IDE.
+* `log` - application logs.
+* `plugins` - contains installations of all IDE plugins;
+* `system` - caches, indexes, history, temporary files, code coverage data,...
+
+== How to move them
+
+Open your JetBrains IDE and go to "Help > Edit Custom Properties...". This will open a configuration text file where
+you can specify various IDE settings.
+
+To move the directories, enter the following to that configuration file, save it, and restart the IDE. Of course, change
+the location to your own.
+
+[source, text]
+----
+idea.config.path=I:/JetBrains/PhpStorm/config
+idea.system.path=I:/JetBrains/PhpStorm/system
+idea.plugins.path=I:/JetBrains/PhpStorm/plugins
+idea.log.path=I:/JetBrains/PhpStorm/log
+----
+
+== Important notes
+
+* forward slashes *must* be used, even on Windows. Using backslashes will produce a directory like
+`I:\JetBrainsPhpStormconfig`.
+* This *will not* move the IDE installation directory (binaries). To do that, follow this guide:
+link:changing-installation-directory.adoc[Changing IDE installation directory].
+* On first restart after configuration change, the IDE will offer to import previous configuration. *Do that*, because
+otherwise, you will have to configure your IDE and install all plugins again.
+
+== Official documentation
+
+https://intellij-support.jetbrains.com/hc/en-us/articles/207240985-Changing-IDE-default-directories-used-for-config-plugins-and-caches-storage[Changing IDE default directories used for config, plugins, and caches storage]
