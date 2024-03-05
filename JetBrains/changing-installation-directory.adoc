@@ -29,4 +29,4 @@ Only fresh installation will.
 
 == Official documentation
 
-* https://www.jetbrains.com/toolbox-app/faq/#:~:text=Go%20to%20the%20Toolbox%20App,the%20Tools%20install%20location%20field.[Toolbox App FAQ]
+* https://www.jetbrains.com/toolbox-app/faq/[Toolbox App FAQ]
