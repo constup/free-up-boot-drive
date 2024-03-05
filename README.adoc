@@ -5,6 +5,17 @@
 This is a set of instructions and guides on how to free up space on your boot drive by moving applications, their
 configuration and logs to other drives. It is primarily intended for Windows users.
 
+[NOTE]
+====
+Instructions listed here are meant to be simple solutions, which are either buried somewhere inside the official
+documentation of tools which are covered here, and/or are simple solutions which are tested and confirmed to work.
+
+Although alternative solutions might exist, *it is not the intention* of these guides to list them all - and become the
+same blob of information as many of the official documentations are. However, each article will have links to the
+official documentation itself and/or relevant 3rd party guides - just in case you want to dig deeper or find alternative
+solutions.
+====
+
 == Table of contents
 
 * link:JetBrains/[JetBrains]
