@@ -1,0 +1,42 @@
+= Hub cache
+:toc:
+:toclevels: 5
+
+== Space savings
+
+* Depending on use, it can be anywhere from a couple of gigabytes, to dozens of gigabytes (in my case: 29GB).
+
+== What are these files
+
+Cached pretrained models, tokens and data sets used in locally installed AI tools and Python scripts.
+
+== Default locations
+
+* `~/.cache/huggingface` - Huggingface Hub home directory.
+
+== How to move them
+
+=== Step 1. Close applications and stop scripts
+
+If you are running any application or a Python script which might be using Huggingface cache (for example:
+StableDiffusion, Tortoise TTS,...), stop these applications and/or scripts before proceeding.
+
+=== Step 2. Set `HF_HOME` environment variable
+
+Set the `HF_HOME` environment variable to a location which you want Huggingface to store Hub data to.
+
+Alternatively, you can run the following PowerShell script to set the `HF_HOME` environment variable:
+link:powershell/hfHubSetCacheEnvVar.ps1[hfHubSetCacheEnvVar.ps1]
+
+[source,shell]
+----
+pwsh .\hfHubSetCacheEnvVar.ps1
+----
+
+=== Step 3. Move the files
+
+Once the `HF_HOME` environment variable is set, you can move the files to the new directory.
+
+== Official documentation
+
+* https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables[Huggingface Hub - Environment variables]

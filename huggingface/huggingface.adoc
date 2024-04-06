@@ -1,0 +1,32 @@
+= Huggingface
+:toc:
+:toclevels: 5
+
+== Introduction
+
+https://huggingface.co/[Huggingface] by default stores a lot of data on the boot drive. This includes often dozens of
+gigabytes of cache. This is a list of default locations and links to guides on how to migrate them to
+non-boot drive.
+
+== List of files and folders on boot drive
+
+* `~\.cache\huggingface` - Huggingface Hub home directory. Guide: link:hub-cache.adoc[Hub cache]
+
+== Additional notes
+
+=== Telemetry
+
+Huggingface libraries (transformers, datasets, Gradio,...) are collecting telemetry data, with *each library defining
+its own policy*. To turn telemetry off globally, create a `HF_HUB_DISABLE_TELEMETRY` environment variable and set its
+value to `1`.
+
+Alternatively, you can run the following PowerShell script to disable telemetry:
+link:powershell/hfHubDisableTelemetry.ps1[hfHubDisableTelemetry.ps1]
+
+[source,shell]
+----
+pwsh .\hfHubDisableTelemetry.ps1
+----
+
+Official documentation:
+https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables#hfhubdisabletelemetry[HF_HUB_DISABLE_TELEMETRY]

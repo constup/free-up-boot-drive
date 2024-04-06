@@ -33,12 +33,14 @@ sense will the old instructions be kept.
 ** link:JetBrains/config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
 ** link:JetBrains/changing-installation-directory.adoc[Changing IDE installation directory]
 ** link:JetBrains/temporary-files-and-cleanup.adoc[Temporary files and cleanup]
+* link:huggingface/huggingface.adoc[Huggingface]
+** link:huggingface/hub-cache.adoc[Hub cache]
 
 == Licenses
 
 * License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-image::img/by-nc-sa.png[]
+image::img/by-nc-sa.png[cc-by-nc-sa-4.0]
 
 Author: Nikola D. Stojiljković / constUP
