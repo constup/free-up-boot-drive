@@ -55,8 +55,10 @@ link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg
 
 == Licenses
 
-* License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
+* Guides License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
 https://creativecommons.org/licenses/by-nc-sa/4.0/
+* Scripts License: link:CODE_LICENSE[MIT License]. Original license is also available at:
+https://choosealicense.com/licenses/mit/
 
 image::img/by-nc-sa.png[cc-by-nc-sa-4.0]
 
