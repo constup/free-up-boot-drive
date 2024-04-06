@@ -5,8 +5,9 @@
 == Introduction
 
 https://huggingface.co/[Huggingface] by default stores a lot of data on the boot drive. This includes often dozens of
-gigabytes of cache. This is a list of default locations and links to guides on how to migrate them to
-non-boot drive.
+gigabytes of cache. You might be affected if you are running AI Python scripts and/or applications, like Stable
+Diffusion or Tortoise TTS. This is a list of default locations and links to guides on how to migrate them to non-boot
+drive.
 
 == List of files and folders on boot drive
 
