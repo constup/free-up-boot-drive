@@ -36,6 +36,17 @@ sense will the old instructions be kept.
 * link:huggingface/huggingface.adoc[Huggingface]
 ** link:huggingface/hub-cache.adoc[Hub cache]
 
+== Scripts
+
+Some of the guides in this repository also have helpful PowerShell scripts which are intended to speed up migrations of
+files out of your boot drive. You don't have to use them, as all operations required for a migration can be done
+manually.
+
+However, if you do want to use them, first install the prerequisites:
+
+* Microsoft PowerShell 7: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4
+* Microsoft .NET: https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80
+
 == Licenses
 
 * License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
