@@ -49,7 +49,7 @@ However, if you do want to use them, first install the prerequisites:
 
 == Support
 
-If you like this tool or find it useful, consider buying me a nice cup of coffee. Coffee fuels open source.
+If you like these guides or find them useful, consider buying me a nice cup of coffee. Coffee fuels open source.
 
 link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg[Ko-fi]]
 
