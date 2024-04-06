@@ -47,6 +47,12 @@ However, if you do want to use them, first install the prerequisites:
 * Microsoft PowerShell 7: https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4
 * Microsoft .NET: https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80
 
+== Support
+
+If you like this tool or find it useful, consider buying me a nice cup of coffee. Coffee fuels open source.
+
+link:https://ko-fi.com/E1E3VQUK2[image:https://ko-fi.com/img/githubbutton_sm.svg[Ko-fi]]
+
 == Licenses
 
 * License: link:LICENSE[CC BY-NC-SA 4.0]. Original license is also available at:
