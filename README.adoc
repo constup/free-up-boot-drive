@@ -37,6 +37,8 @@ sense will the old instructions be kept.
 ** link:huggingface/hub-cache.adoc[Hub and cache]
 * link:PyTorch/pytorch.adoc[PyTorch]
 ** link:PyTorch/hub-cache.adoc[Hub and cache]
+* link:TortoiseTTS/tortoise-tts.adoc[Tortoise TTS]
+** link:TortoiseTTS/models.adoc[Tortoise models]
 
 == Scripts
 

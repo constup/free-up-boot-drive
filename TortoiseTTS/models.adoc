@@ -1,0 +1,52 @@
+= Tortoise TTS models
+:toc:
+:toclevels: 5
+
+== Space savings
+
+* About 8 GB with normal use, without many plugins.
+
+== What are these files
+
+Base and pre-trained AI models used by Tortoise TTS.
+
+== Default locations
+
+* `~/.cache/tortoise/models` - Tortoise models directory.
+
+== How to move them
+
+=== Step 1. Close TortoiseTTS
+
+Close Tortoise TTS before proceeding.
+
+=== Step 2. Set `TORTOISE_MODELS_DIR` environment variable
+
+Set the `TORTOISE_MODELS_DIR` environment variable to a location which you want Tortoise TTS to store models to.
+
+Alternatively, you can run the following PowerShell script to set the `TORTOISE_MODELS_DIR` environment variable:
+link:powershell/tortoiseTTSModelsDir.ps1[tortoiseTTSModelsDir.ps1]
+
+[source,shell]
+----
+pwsh .\tortoiseTTSModelsDir.ps1
+----
+
+=== Step 3. Move the files
+
+Once `TORTOISE_MODELS_DIR` environment variable is set, you can move the contents of the `~\.cache\tortoise\models`
+directory to the new directory.
+
+== Official documentation
+
+There is no official documentation, but digging through code you can find the following lines in
+`tortoise/api_fast.py`:
+
+[source,python]
+----
+DEFAULT_MODELS_DIR = os.path.join(os.path.expanduser('~'), '.cache', 'tortoise', 'models')
+MODELS_DIR = os.environ.get('TORTOISE_MODELS_DIR', DEFAULT_MODELS_DIR)
+----
+
+This means that when `TORTOISE_MODELS_DIR` environment variable is set, it will be used to store models. If it's not
+set, it will fall back to `DEFAULT_MODELS_DIR`, which is in `~\.cache\tortoise\models`.

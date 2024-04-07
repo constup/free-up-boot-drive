@@ -1,0 +1,13 @@
+= Tortoise TTS
+:toc:
+:toclevels: 5
+
+== Introduction
+
+Tortoise TTS (text-to-speech) is an AI tool installed locally which downloads pre-trained models to your boot drive by
+default. This is a list of default locations of boot drive files and links to guides on how to migrate them to a
+non-boot drive.
+
+== List of files and folders on boot drive
+
+* `~\.cache\tortoise\models` - Tortoise TTS models directory. Guide: link:models.adoc[Tortoise TTS models]
