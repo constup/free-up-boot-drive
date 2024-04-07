@@ -1,0 +1,15 @@
+= PyTorch
+:toc:
+:toclevels: 5
+
+== Introduction
+
+https://pytorch.org/hub/[PyTorch hub], or, just Torch hub is a repository of pre-trained AI models. Similar to
+link:../huggingface/huggingface.adoc[Huggingface], it has a cache directory with gigabytes of data stored in user's
+home directory. This is a list of default locations of boot drive files and links to guides on how to migrate them to a
+non-boot drive.
+
+== List of files and folders on boot drive
+
+* `~\.cache\torch` - Torch home directory. Guide: link:hub-cache.adoc[Torch Hub and cache]
+

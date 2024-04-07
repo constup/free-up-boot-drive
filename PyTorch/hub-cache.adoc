@@ -1,0 +1,42 @@
+= Torch Hub and cache
+:toc:
+:toclevels: 5
+
+== Space savings
+
+* It can be several gigabytes, depending on how much you use PyTorch scripts and applications.
+
+== What are these files
+
+Cached pretrained models and PyTorch data used in locally installed AI tools and Python scripts.
+
+== Default locations
+
+* `~/.cache/torch` - Torch Hub home directory.
+
+== How to move them
+
+=== Step 1. Close applications and stop scripts
+
+If you are running any application or a Python script which might be using PyTorch cache (for example:
+StableDiffusion, Tortoise TTS,...), stop these applications and/or scripts before proceeding.
+
+=== Step 2. Set `TORCH_HOME` environment variable
+
+Set the `TORCH_HOME` environment variable to a location which you want PyTorch to store Hub data to.
+
+Alternatively, you can run the following PowerShell script to set the `TORCH_HOME` environment variable:
+link:powershell/torchHubSetHomeEnvVar.ps1[torchHubSetHomeEnvVar.ps1]
+
+[source,shell]
+----
+pwsh .\torchHubSetHomeEnvVar.ps1
+----
+
+=== Step 3. Move the files
+
+Once `TORCH_HOME` environment variable is set, you can move the files to the new directory.
+
+== Official documentation
+
+* https://pytorch.org/docs/stable/hub.html#where-are-my-downloaded-models-saved[PyTorch Hub documentation]

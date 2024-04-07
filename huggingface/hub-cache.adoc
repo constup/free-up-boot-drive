@@ -1,4 +1,4 @@
-= Hub cache
+= Huggingface Hub and cache
 :toc:
 :toclevels: 5
 
@@ -35,7 +35,7 @@ pwsh .\hfHubSetCacheEnvVar.ps1
 
 === Step 3. Move the files
 
-Once the `HF_HOME` environment variable is set, you can move the files to the new directory.
+Once `HF_HOME` environment variable is set, you can move the files to the new directory.
 
 == Official documentation
 

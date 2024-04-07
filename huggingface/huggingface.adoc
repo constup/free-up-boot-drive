@@ -6,12 +6,12 @@
 
 https://huggingface.co/[Huggingface] by default stores a lot of data on the boot drive. This includes often dozens of
 gigabytes of cache. You might be affected if you are running AI Python scripts and/or applications, like Stable
-Diffusion or Tortoise TTS. This is a list of default locations and links to guides on how to migrate them to non-boot
+Diffusion or Tortoise TTS. This is a list of default locations and links to guides on how to migrate them to a non-boot
 drive.
 
 == List of files and folders on boot drive
 
-* `~\.cache\huggingface` - Huggingface Hub home directory. Guide: link:hub-cache.adoc[Hub cache]
+* `~\.cache\huggingface` - Huggingface Hub home directory. Guide: link:hub-cache.adoc[Huggingface Hub and cache]
 
 == Additional notes
 
