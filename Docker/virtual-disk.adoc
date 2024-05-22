@@ -1,0 +1,32 @@
+= Virtual disk for WSL2
+:toc:
+:toclevels: 5
+
+== Space savings
+
+* Can be anywhere from several GB to a few dozen GB. (24 GB in my case)
+
+== What are these files
+
+Virtual disk for Docker Desktop WSL2.
+
+== Default locations
+
+* `%LocalAppData%\Docker\wsl`
+
+== How to move them
+
+This can be easily done from the Docker Desktop GUI directly. Simply go to `Settings > Resources`, change the value of
+the `Disk image location`, click `Apply & Restart` button and wait. Docker Desktop will then shut down the Docker
+engine, migrate the virtual disk and start the engine again.
+
+[IMPORTANT]
+====
+Depending on the size of your Docker virtual disk and the speed of your physical drives, this can take several minutes.
+Just wait until the Docker Desktop reports that the engine is up again.
+====
+
+== Official documentation
+
+* https://docs.docker.com/desktop/settings/windows[Change Docker Desktop settings on Windows], "Disk image location"
+section.

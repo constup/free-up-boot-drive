@@ -29,12 +29,14 @@ sense will the old instructions be kept.
 
 == Table of contents
 
+* link:Docker/docker.adoc[Docker and Docker Desktop]
+** link:Docker/virtual-disk.adoc[Virtual disk for WSL2]
+* link:huggingface/huggingface.adoc[Huggingface]
+** link:huggingface/hub-cache.adoc[Hub and cache]
 * link:JetBrains/jetbrains.adoc[JetBrains]
 ** link:JetBrains/config-system-plugins-logs.adoc[Configuration, system, plugins and logs directories]
 ** link:JetBrains/changing-installation-directory.adoc[Changing IDE installation directory]
 ** link:JetBrains/temporary-files-and-cleanup.adoc[Temporary files and cleanup]
-* link:huggingface/huggingface.adoc[Huggingface]
-** link:huggingface/hub-cache.adoc[Hub and cache]
 * link:PyTorch/pytorch.adoc[PyTorch]
 ** link:PyTorch/hub-cache.adoc[Hub and cache]
 * link:TortoiseTTS/tortoise-tts.adoc[Tortoise TTS]

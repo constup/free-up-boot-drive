@@ -1,0 +1,13 @@
+= Docker
+:toc:
+:toclevels: 5
+
+== Introduction
+
+https://www.docker.com[Docker] and https://www.docker.com/products/docker-desktop[Docker desktop] are usually storing
+virtual machine data on th system drive. This includes a WSL image which can be dozens of GB in size.
+
+== List of files and folders on boot drive
+
+* `%LocalAppData%\Docker\wsl`, mainly the `ext4.vhdx` file - the virtual disk for Docker Desktop WSL.
+Guide: link:virtual-disk.adoc[Virtual disk for WSL2]
